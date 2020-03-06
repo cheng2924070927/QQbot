@@ -1,0 +1,5 @@
+<?php
+$authcode='';
+$distid='';
+
+?>

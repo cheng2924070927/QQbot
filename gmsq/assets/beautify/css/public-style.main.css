@@ -1,0 +1,58 @@
+/*作者：@魅久         QQ：26786385   尊重版权！*/
+
+@charset "UTF-8";*{margin:0;padding:0}
+:before{z-index:-1}
+a:link{text-decoration:none;-webkit-tap-highlight-color:rgba(255,255,255,0);-webkit-user-select:none;-moz-user-focus:none;cursor:pointer;-moz-user-select:none}
+a:visited{text-decoration:none}
+a:hover{text-decoration:none}
+a:active{text-decoration:none}
+.pd-text{padding:12px;border-top:#ddd solid 1px}
+.cnt{text-align:center}
+.tw1{letter-spacing:1px}
+.tw2{letter-spacing:2px}
+.left{float:left}
+.right{float:right}
+.rdu-5x{border-radius:5px}
+.rdu-50{border-radius:50%}
+.body-box{max-width:520px;margin:0 auto;padding-top:50px}
+header{height:50px;width:100%;background:rgba(238,238,238,.9);position:fixed;top:0;left:0;z-index:999;box-shadow:0 1px 1px #555}
+header .logo{height:40px;width:40px;margin:5px 12px;float:left;display:inline-block}
+header .text{padding-left:8px;line-height:50px;display:inline-block;float:left;display:inline-block;font-size:14px;color:#7f2d00;letter-spacing:1px;font-weight:700;text-shadow:0 1px #d7e8f9}
+header a{width:90px;height:50px;line-height:50px;color:#1e9fff;font-size:14px;font-weight:700;letter-spacing:3px;border-left:solid 1px #63b1ff;text-align:center;display:block;position:fixed;top:0;right:0;cursor:pointer}
+header a:active{box-shadow:inset 0 0 10px #272727;border:1px #000 solid}
+.fade-in{display:none;color:red}
+.panel-basics{margin:20px 8px;background:#fff}
+.panel-shadow{margin:20px 8px;background:#fff;box-shadow:0 0 1px #333}
+.panel-bor-top{border-top:#50daf3 solid 3px}
+.label-yc{font-size:11px;color:#fff;display:inline-block;padding:1px 5px}
+.three-df-naw{width:100%;display:flex;list-style-type:none;border-top:#ddd solid 1px;padding:0;margin:0;color:#333;font-size:12px}
+.three-df-naw li{flex:3;display:block;letter-spacing:1px;text-align:center;padding:10px 12px}
+.three-df-naw li div{font-size:13px;color:red;margin-bottom:3px}
+.two-df-naw{width:100%;display:flex;list-style-type:none;border-top:#ddd solid 1px;padding:0;color:#333;padding:0;margin:0}
+.two-df-naw li{flex:2;display:block;letter-spacing:1px;text-align:center;padding:10px 12px}
+.two-df-naw li div{font-size:13px;color:red;margin-bottom:3px}
+.but-naw{width:100%;padding:0;margin:0;display:flex;list-style-type:none;border-top:#ddd solid 1px}
+.but-naw li{flex:3}
+.but-naw li a{height:42px;line-height:42px;display:block;color:#000;font-size:13px;letter-spacing:1px;text-align:center;transition:.2s;overflow:hidden;z-index:2;position:relative}
+.but-naw li a:hover:after{top:0;left:0;height:100%;width:100%}
+.but-naw li a:after{transition:.2s;content:'';z-index:-1;background:#f3f3f3;width:0;height:0;position:absolute;top:50%;left:50%}
+.but-naw li a:active{line-height:39px;color:#ff8000}
+.qqkf-card-title{height:20px;background:#fff;border-bottom:#7ecef4 solid 2px}
+.qqkf-card-title font{line-height:20px;padding:0 30px 0 12px;display:block;float:left;background:linear-gradient(-110deg,transparent 20px,#7ecef4 0)}
+.qqkf-card{background:linear-gradient(-68deg,#afa,#f3f3f3,#afa);border:#7ecef4 solid 1px;border-top:none;font-size:13px;color:#333}
+.qqkf-card .left-box{width:30%;height:70px;display:inline-block;text-align:center;padding-top:9px}
+.qqkf-card .left-box img{width:50px;height:50px;border:1px solid #FFF;border-radius:50%;box-shadow:0 0 3px #AAA}
+.qqkf-card .right-box{width:70%;height:70px;float:right;padding:8px 12px 8px 0}
+.qqkf-card .right-box div{padding:5px 0 7px 0}
+.qqkf-card .text{padding:8px 12px;border-top:#ff8000 dashed 1px}
+.qqkf-card-two{border:#8efe94 inset 1px;background:#f3f3f3;font-size:13px;color:#272727}
+.qqkf-card-two .left-box{height:90px;width:33%;text-align:center;border-right:#bebebe solid 1px;padding-top:12px;display:inline-block}
+.qqkf-card-two .left-box img{width:65px;height:65px;border:1px solid #FFF;border-radius:50%;box-shadow:0 0 3px #AAA;padding:5px}
+.qqkf-card-two .right-box{height:90px;width:67%;float:right;padding:6px 10px}
+
+
+hr.shi,hr.xu,hr.ddd-shi{margin:8px auto 9px auto;height:0;}
+hr.shi{border-top:1px solid #5cadad}
+hr.xu{border-top:1px dashed #5cadad}
+hr.ddd-shi{border-top:1px solid #ddd}
+hr.ddd-xu{border-top:1px dashed #ddd}
