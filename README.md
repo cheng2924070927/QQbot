@@ -2,7 +2,7 @@
 
 > QQbot
 
-[![npm](https://img.shields.io/npm/v/hexo-theme-sagiri.svg?style=flat-square)](https://www.npmjs.com/package/hexo-theme-sagiri)
+[![QQbot](https://img.shields.io/badge/QQbot-LovelyGod-orange)](https://github.com/cheng2924070927/QQbot)
 [![npm](https://img.shields.io/npm/l/hexo-theme-sagiri.svg?style=flat-square)](https://github.com/DIYgod/hexo-theme-sagiri/blob/master/LICENSE)
 [![npm](https://img.shields.io/npm/dt/hexo-theme-sagiri.svg?style=flat-square)](https://www.npmjs.com/package/hexo-theme-sagiri)
 [![dependency Status](https://img.shields.io/david/DIYgod/hexo-theme-sagiri.svg?style=flat-square)](https://david-dm.org/DIYgod/hexo-theme-sagiri)
