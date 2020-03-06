@@ -1,14 +1,14 @@
 <h1 align="center">签到萌宠机器人官网</h1>
 
 > A robot that supports 50+ sign-in service, with one button sign-in and one button adoration, has rich functions
-
+<center>
 [![QQbot](https://img.shields.io/badge/QQbot-LovelyGod-orange)](https://github.com/cheng2924070927/QQbot)
 [![Open source project](https://img.shields.io/badge/%E5%85%8D%E8%B4%B9-%E5%BC%80%E6%BA%90-success)](https://github.com/cheng2924070927/QQbot)
 [![Plug-in author](https://img.shields.io/badge/%E6%8F%92%E4%BB%B6%E4%BD%9C%E8%80%85-%E5%B0%8F%E5%87%AF%E5%A4%A7%E5%A4%A7-ff69b4)](https://wpa.qq.com/msgrd?v=3&uin=1544545655&site=qq&menu=yes)
 [![The official website](https://img.shields.io/badge/%E5%AE%98%E7%BD%91%E5%88%B6%E4%BD%9C-LovelyGod-9cf)](https://lovek.me/)
 [![Donation sponsorship](https://img.shields.io/badge/Contributions-Sponsor-blue)](https://lovek.me/donate/)
 [![QQ group](https://img.shields.io/badge/QQ%E4%BA%A4%E6%B5%81%E7%BE%A4-826967547-yellow)](https://jq.qq.com/?_wv=1027&k=5lp31Jm)
-
+</center>
 ## 介绍
 
 一套UI精美的QQ机器人官网，带后台.
