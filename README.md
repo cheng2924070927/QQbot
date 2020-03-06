@@ -8,6 +8,7 @@
 [![The official website](https://img.shields.io/badge/%E5%AE%98%E7%BD%91%E5%88%B6%E4%BD%9C-LovelyGod-9cf)](https://lovek.me/)
 [![Donation sponsorship](https://img.shields.io/badge/Contributions-Sponsor-blue)](https://lovek.me/donate/)
 [![QQ group](https://img.shields.io/badge/QQ%E4%BA%A4%E6%B5%81%E7%BE%A4-826967547-yellow)](https://jq.qq.com/?_wv=1027&k=5lp31Jm)
+[![QQ group](https://img.shields.io/badge/JKJ%20PRO%E7%94%A8%E6%88%B7%E7%BE%A4-738728836-blueviolet)](https://jq.qq.com/?_wv=1027&k=5He1nOL)
 
 ## 介绍
 
