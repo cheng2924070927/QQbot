@@ -9,24 +9,27 @@
 [![devDependency Status](https://img.shields.io/david/dev/DIYgod/hexo-theme-sagiri.svg?style=flat-square)](https://david-dm.org/DIYgod/hexo-theme-sagiri#info=devDependencies)
 [![donate](https://img.shields.io/badge/$-donate-ff69b4.svg?style=flat-square)](https://github.com/DIYgod/hexo-theme-sagiri#donate)
 
-## Introduction
+## 介绍
 
-Lovely theme for Hexo.
+一套UI精美的QQ机器人官网，带后台.
 
-As lovely as sagiri, based on [hexo-theme-next](https://github.com/iissnan/hexo-theme-next)
+简单易操作，可主机搭建可服务器搭建.
 
-## Who use hexo-theme-sagiri?
+## 演示站
+
+- https://lpit.xyz/
+- https://LovelyGod.github.io/
 
 ## Donate
 
-- [Donate via Paypal](https://www.paypal.me/DIYgod)
-- [Donate via WeChat Pay](https://ws4.sinaimg.cn/large/006tKfTcgy1fhu1uowywej307s07st8h.jpg)
-- [Donate via Alipay](https://ws4.sinaimg.cn/large/006tKfTcgy1fhu1vf4ih7j307s07sdfm.jpg)
-- Donate via Bitcoin: 13CwQLHzPYm2tewNMSJBeArbbRM5NSmCD1
+- [通过支付宝捐款](https://lovek.me/donate/)
+- [通过微信支付捐款](https://lovek.me/donate/)
+- [通过QQ支付捐款](https://lovek.me/donate/)
+- 通过比特币捐赠: 1MNHHGYZX5hRuQTvsubYXDRt8ZGAhdNceD
 
-## Author
+## 作者
 
-**hexo-theme-sagiri** © [DIYgod](https://github.com/DIYgod), Released under the [MIT](./LICENSE) License.<br>
-Authored and maintained by DIYgod with help from contributors ([list](https://github.com/DIYgod/hexo-theme-sagiri/contributors)).
+**签到萌宠机器人官网** © [Lovely God](https://github.com/cheng2924070927),根据[MIT](./LICENSE) 许可证发行.<br>
+由Lovely God在贡献者的帮助下创作和维护([list](https://github.com/cheng2924070927/QQbot/contributors)).
 
-> Blog [@Anotherhome](https://www.anotherhome.net) · GitHub [@DIYgod](https://github.com/DIYgod) · Twitter [@DIYgod](https://twitter.com/DIYgod) · Telegram Channel [@awesomeDIYgod](https://t.me/awesomeDIYgod)
+> Blog [@lovek](https://lovek.me) · GitHub [@Lovely God](https://github.com/cheng2924070927) · Twitter [@Lovely God](https://twitter.com/lovelygod3) · Telegram Channel [@lovelygdo3](https://t.me/lovelygdo3)
