@@ -3,9 +3,9 @@
 > QQbot
 
 [![QQbot](https://img.shields.io/badge/QQbot-LovelyGod-orange)](https://github.com/cheng2924070927/QQbot)
-[![npm](https://img.shields.io/npm/l/hexo-theme-sagiri.svg?style=flat-square)](https://github.com/DIYgod/hexo-theme-sagiri/blob/master/LICENSE)
-[![npm](https://img.shields.io/npm/dt/hexo-theme-sagiri.svg?style=flat-square)](https://www.npmjs.com/package/hexo-theme-sagiri)
-[![dependency Status](https://img.shields.io/david/DIYgod/hexo-theme-sagiri.svg?style=flat-square)](https://david-dm.org/DIYgod/hexo-theme-sagiri)
+[![Open source project](https://img.shields.io/badge/%E5%85%8D%E8%B4%B9-%E5%BC%80%E6%BA%90-success)](https://github.com/DIYgod/hexo-theme-sagiri/blob/master/LICENSE)
+[![Plug-in author](https://img.shields.io/badge/Plug--in%20author-%E5%B0%8F%E5%87%AF%E5%A4%A7%E5%A4%A7-ff69b4)](https://wpa.qq.com/msgrd?v=3&uin=1544545655&site=qq&menu=yes)
+[![The official website](https://img.shields.io/badge/%E5%AE%98%E7%BD%91%E5%88%B6%E4%BD%9C-LovelyGod-9cf)](https://lovek.me/)
 [![devDependency Status](https://img.shields.io/david/dev/DIYgod/hexo-theme-sagiri.svg?style=flat-square)](https://david-dm.org/DIYgod/hexo-theme-sagiri#info=devDependencies)
 [![donate](https://img.shields.io/badge/$-donate-ff69b4.svg?style=flat-square)](https://github.com/DIYgod/hexo-theme-sagiri#donate)
 
