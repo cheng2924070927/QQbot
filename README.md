@@ -20,7 +20,7 @@
 - https://lpit.xyz/
 - https://LovelyGod.github.io/
 
-## Donate
+## 捐赠
 
 - [通过支付宝捐款](https://lovek.me/donate/)
 - [通过微信支付捐款](https://lovek.me/donate/)
@@ -29,7 +29,7 @@
 
 ## 作者
 
-**签到萌宠机器人官网** © [Lovely God](https://github.com/cheng2924070927),根据[MIT](./LICENSE) 许可证发行.<br>
+**签到萌宠机器人官网** © [Lovely God](https://github.com/cheng2924070927)<br>
 由Lovely God在贡献者的帮助下创作和维护([list](https://github.com/cheng2924070927/QQbot/contributors)).
 
 > Blog [@lovek](https://lovek.me) · GitHub [@Lovely God](https://github.com/cheng2924070927) · Twitter [@Lovely God](https://twitter.com/lovelygod3) · Telegram Channel [@lovelygdo3](https://t.me/lovelygdo3)
