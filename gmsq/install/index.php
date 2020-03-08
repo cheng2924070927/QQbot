@@ -60,7 +60,7 @@ function random($length, $numeric = 0) {
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no,minimal-ui">
-<title>凌吾代刷网系统</title>
+<title>内置站点，安装程序不可用，请不要安装，有事联系QQ：2924070927</title>
 <link href="//cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"/>
 
 </head>
@@ -68,7 +68,7 @@ function random($length, $numeric = 0) {
 <nav class="navbar navbar-fixed-top navbar-default">
     <div class="container">
       <div class="navbar-header">
-        <span class="navbar-brand">代刷网安装向导</span>
+        <span class="navbar-brand">签到萌宠机器人销售站安装向导</span>
       </div>
     </div>
   </nav>
@@ -80,7 +80,7 @@ $_SESSION['checksession']=1;
 ?>
 <div class="panel panel-primary">
 	<div class="panel-heading" style="background: #15A638;">
-		<h3 class="panel-title" align="center">凌吾自助下单系统</h3>
+		<h3 class="panel-title" align="center">签到萌宠机器人销售系统</h3>
 	</div>
 	<div class="panel-body">
 		<p><iframe src="../readme.txt?r=<?php echo time()?>" style="width:100%;height:465px;"></iframe></p>
@@ -335,7 +335,7 @@ if($e==0) {
 <?php
 	@file_put_contents("install.lock",'安装锁');
 	clearpack();
-	echo '<div class="alert alert-info"><font color="green">安装完成！管理账号和密码是:admin/123456</font><br/><br/><a href="../">>>网站首页</a>｜<a href="../admin/">>>后台管理</a><hr/>更多设置选项请登录后台管理进行修改。<br/><br/><font color="#FF0033">如果你的空间不支持本地文件读写，请自行在install/ 目录建立 install.lock 文件！</font></div>';
+	echo '<div class="alert alert-info"><font color="green">安装完成！管理账号和密码是:admin/123456，<a href="https://lovek.me/">记得支持Lovely God一下哦</a></font><br/><br/><a href="../">>>网站首页</a>｜<a href="../admin/">>>后台管理</a><hr/>更多设置选项请登录后台管理进行修改。<br/><br/><font color="#FF0033">如果你的空间不支持本地文件读写，请自行在install/ 目录建立 install.lock 文件！</font></div>';
 ?>
 	</div>
 </div>
@@ -354,7 +354,7 @@ if($e==0) {
 <?php
 	@file_put_contents("install.lock",'安装锁');
 	clearpack();
-	echo '<div class="alert alert-info"><font color="green">安装完成！管理账号和密码是:admin/123456</font><br/><br/><a href="../">>>网站首页</a>｜<a href="../admin/">>>后台管理</a><hr/>更多设置选项请登录后台管理进行修改。<br/><br/><font color="#FF0033">如果你的空间不支持本地文件读写，请自行在install/ 目录建立 install.lock 文件！</font></div>';
+	echo '<div class="alert alert-info"><font color="green">安装完成！管理账号和密码是:admin/123456,<a href="https://lovek.me/">记得支持Lovely God一下哦</font><br/><br/><a href="../">>>网站首页</a>｜<a href="../admin/">>>后台管理</a><hr/>更多设置选项请登录后台管理进行修改。<br/><br/><font color="#FF0033">如果你的空间不支持本地文件读写，请自行在install/ 目录建立 install.lock 文件！</font></div>';
 ?>
 	</div>
 </div>
