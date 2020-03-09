@@ -2,7 +2,7 @@
 /**
  * 登录
 **/
-$verifycode = 0;//验证码开关
+$verifycode = 1;//验证码开关
 
 if(!function_exists("imagecreate") || !file_exists('code.php'))$verifycode=0;
 include("../includes/common.php");
@@ -22,7 +22,7 @@ if(isset($_POST['user']) && isset($_POST['pass'])){
 		saveSetting('adminlogin',$date);
 		log_result('后台登录', 'IP:'.$clientip, null, 1);
 		@header('Content-Type: text/html; charset=UTF-8');
-		exit("<script language='javascript'>alert('登陆管理中心成功！');window.location.href='./';</script>");
+		exit("<script language='javascript'>alert('登录管理中心成功！');window.location.href='./';</script>");
 	}else {
 		unset($_SESSION['vc_code']);
 		@header('Content-Type: text/html; charset=UTF-8');
@@ -31,12 +31,12 @@ if(isset($_POST['user']) && isset($_POST['pass'])){
 }elseif(isset($_GET['logout'])){
 	setcookie("admin_token", "", time() - 604800);
 	@header('Content-Type: text/html; charset=UTF-8');
-	exit("<script language='javascript'>alert('您已成功注销本次登陆！');window.location.href='./login.php';</script>");
+	exit("<script language='javascript'>alert('您已成功注销本次登录！');window.location.href='./login.php';</script>");
 }elseif($islogin==1){
 	@header('Content-Type: text/html; charset=UTF-8');
-	exit("<script language='javascript'>alert('您已登陆！');window.location.href='./';</script>");
+	exit("<script language='javascript'>alert('您已登录！');window.location.href='./';</script>");
 }
-$title='用户登录';
+$title='签到萌宠机器人销售站登录';
 include './head.php';
 ?>
 <div id="login-container">
@@ -45,7 +45,7 @@ include './head.php';
 	</h1>
 	<div class="block animation-fadeInQuickInv">
 		<div class="block-title">
-			<h2>管理员后台登录</h2>
+			<h2>签到萌宠机器人销售站登录</h2>
 		</div>
 		<form id="form-login" action="login.php" method="post" class="form-horizontal">
 			<div class="form-group">
@@ -85,7 +85,7 @@ include './head.php';
 		</form>
 	</div>
 	<footer class="text-muted text-center animation-pullUp">
-	<small><span id="year-copy"></span> &copy; <a href="#"><?php echo $conf['sitename']?></a></small>
+	<small><span id="year-copy"></span> &copy; <a href="#"><?php echo $conf['sitename']?></a> © 正版授权</small>
 	</footer>
 </div>
 </body>

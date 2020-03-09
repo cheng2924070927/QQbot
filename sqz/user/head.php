@@ -7,6 +7,7 @@
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <title><?php echo $title ?></title>
+  <link rel="shortcut icon" href="/static/images/favicon.ico">
   <link href="//cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"/>
   <script src="//cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
   <script src="//cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>

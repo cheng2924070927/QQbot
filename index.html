@@ -1,41 +1,5 @@
 <!DOCTYPE html> 
 <html lang="zxx">
-<!--
-
-很不赖！！！您很了解浏览器，懂得在进程加载完毕后按F12呼出容器
-您现在已经成功的打开了web容器，本站机关重重也没能拦住您的脚步
-请不要尝试复制、扒取本站的任何代码，否则我们将追究您的法律责任
-
-                                          ---送给扒站者的话
----------------------------------------------------------------------
-
-有些事情必须声明一下：
-
-本站首页模板版权永远属于樱花引流官方所有，由GitHub开发者Lovely God代替樱花引流官方开源首页模板
-
-根据国家相关法律规定相互交流学习不必向原作者支付任何费用，恕不另行通知！
-
-拿到此副本的人只限用于交流学习，因个人造成的一切后果与Lovely God无关
-
--------------------------------------------------------------------
-联系方式：
------------------
-LovelyGod：                                    
-博客： https://lovek.me
-Twitter: https://twitter.com/LovelyGod3
-GitHub: https://github.com/cheng2924070927
-QQ: 2924070927
------------------------------------------------
-樱花引流官网：
-https://yhgw.vip/
-（请关闭web容器后访问，否则将与本站一样强行闪退网页）
------------------------------------------------
-
-结束语：
------------------------------------------------
-以上所述只包含本站官网首页，不包含本站的其他资源！
------------------------------------------------
--->
 <head>
 <meta charset="utf-8">
 <meta http-equiv="Content-Type" content="text/html">
@@ -53,7 +17,7 @@ https://yhgw.vip/
 <link rel="stylesheet" type="text/css" href="static/css/lrtk.css">
 <link class="app_popUp" href="static/css/app_popup.css" rel="stylesheet">
 <link class="popUp" href="static/css/pop_up.css" rel="stylesheet">
-<link rel="icon" href="static/images/logo.ico" type="image/x-icon">
+<link rel="icon" href="static/images/favicon.ico" type="image/x-icon">
 <style type="text/css">
   *{ 
   cursor:url(https://cdn.jsdelivr.net/gh/cheng2924070927/Blog@v1.0.2/cursor.ico),auto;
@@ -530,7 +494,7 @@ QQ透明头像、修改QQ运动步数、清空QQ资料卡、QQ空白网名等<br
 <h1 class="heading">签到萌宠机器人</h1>
 <h2 class="heading">立即下载</h2>
 <div class="actions">
-<a href="xz/Index.html" target="_blank" class="btn ui-gradient-green btn-app-store btn-download shadow-lg"><span>立即下载</span>
+<a href="#" target="_blank" class="btn ui-gradient-green btn-app-store btn-download shadow-lg"><span>立即下载</span>
 <span>GitHub</span></a>
 <a href="https://www.lanzous.com/b00ndgv7g" target="_blank" class="btn ui-gradient-blue btn-google-play btn-download shadow-lg"><span>立即下载</span>
 <span>蓝奏云网盘</span></a>
@@ -568,7 +532,8 @@ QQ透明头像、修改QQ运动步数、清空QQ资料卡、QQ空白网名等<br
   <a href="#" target="_blank">待添加友链</a>  | 
   <a href="#" target="_blank">待添加友链</a>  | 
   <!--友链请自行修改-->
-<!--做网站不容易，又是免费开源的,希望站长大大能保留我的博客友链，只有这么一丝丝小请求，谢谢您啦，这是我对站长您说的悄悄话，避免用户看到还请您过目后删除本条注释-->
+
+<!--做网站的不容易，又是免费开源的,希望站长大大能保留我的博客友链，这么一丝丝小请求哦，还请您过目后删除本条注释-->
         
 
 </div>
@@ -576,12 +541,14 @@ QQ透明头像、修改QQ运动步数、清空QQ资料卡、QQ空白网名等<br
 </div>
 
 <div class="col-xs-6">
+
 <!--
 
-ICP备案:<a href="#" target="_blank">有备案的站长打开、填写此项，默认禁止显示</a>
+ICP备案:<a href="#" target="_blank">有备案的站长打开填写此项，默认禁止显示</a>
   <br>
 
 -->
+
 <a href="#" target="_blank" title="签到萌宠机器人">lovek.me by 签到萌宠机器人</a>
 
 
@@ -741,6 +708,21 @@ scrollTop: 0
 $("iframe").css({
 'background': 'red'
 });
+
+var OriginTitile = document.title;
+  var titleTime;
+document.addEventListener('visibilitychange', function() {
+ if (document.hidden) {
+    document.title = '(つェ⊂)我藏好了哦~ ' + OriginTitile;
+    clearTimeout(titleTime);
+  }
+  else {
+    document.title = '(*´∇｀*) 被你发现啦~ ' + OriginTitile;
+    titleTime = setTimeout(function() {
+        document.title = OriginTitile;
+       }, 2000);
+     }
+  });
 </script>
 
 </div></body>

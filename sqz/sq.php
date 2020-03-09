@@ -6,7 +6,7 @@
   <meta name="description" content="这是一款支持50+签到业务的机器人,一键签到,一健萌宠，功能丰富">
   <title>正版查询 - 签到萌宠机器人</title>
   <meta name="keywords" content="签到萌宠机器人,授权查询,一健萌宠,LovelyGod,一键签到,骗子查询系统,智能AI机器人">
-  <link rel="shortcut icon" href="/favicon.ico" />
+  <link rel="shortcut icon" href="/static/images/favicon.ico">
   <link rel="stylesheet" href="./assets/css/nucleo.css" type="text/css">
   <link rel="stylesheet" type="text/css" href="./assets/css/sweetalert.css"/>
   <script src="./js/sweetalert.min.js"></script>
@@ -164,5 +164,21 @@ if($qq=$_GET['qq']) {
   </footer>
 <script src="./assets/js/jquery.min.js"></script>
 <script src="./assets/js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript">
+var OriginTitile = document.title;
+  var titleTime;
+document.addEventListener('visibilitychange', function() {
+ if (document.hidden) {
+    document.title = '(つェ⊂)我藏好了哦~ ' + OriginTitile;
+    clearTimeout(titleTime);
+  }
+  else {
+    document.title = '(*´∇｀*) 被你发现啦~ ' + OriginTitile;
+    titleTime = setTimeout(function() {
+        document.title = OriginTitile;
+       }, 2000);
+     }
+  });
+</script>
 </body>
 </html>

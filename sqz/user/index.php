@@ -7,7 +7,7 @@ if($islogins==1){}else exit("<script language='javascript'>window.location.href=
   <div class="container" style="padding-top:70px;">
     <div class="col-xs-12 col-sm-10 col-lg-8 center-block" style="float: none;">
       <div class="panel panel-primary">
-        <div class="panel-heading"><h3 class="panel-title">签到萌宠机器人授权商后台管理系统</h3></div>
+        <div class="panel-heading"><center><h3 class="panel-title">签到萌宠机器人授权商后台</h3></center></div>
           <ul class="list-group">
 		    <li class="list-group-item"><span class="glyphicon glyphicon-user"></span> <b>用户名：</b> <?=$udata['user']?></li>
 			<li class="list-group-item"><span class="glyphicon glyphicon-signal"></span> <b>用户组：</b> <font color="green">授权代理商</font></li>
@@ -28,6 +28,17 @@ if($islogins==1){}else exit("<script language='javascript'>window.location.href=
 <p>已经说的很明白了，还不懂的话请联系本站客服</p>
             </li>
           </ul>
+      </div>
+    </div>
+  </div>
+
+ <div class="container" style="padding-top:70px;">
+    <div class="col-xs-12 col-sm-10 col-lg-8 center-block" style="float: none;">
+      <div class="panel panel-primary">
+        <div class="panel-heading"><center><h3 class="panel-title">在这里查询您的授权是否添加成功</h3></center></div>
+        <div>
+        <iframe src ="/sqz/sq.php"  id="info-frame"  width="100%" height="750" marginWidth= "0" marginHeight= "0" scrolling="auto" frameBorder="0"></iframe>
+        </div>
       </div>
     </div>
   </div>

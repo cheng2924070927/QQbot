@@ -15,6 +15,7 @@ if(!defined('IN_CRONLITE'))exit();
   <link rel="stylesheet" href="<?php echo $cdnserver?>assets/simple/css/main.css">
   <link rel="stylesheet" href="<?php echo $cdnserver?>assets/simple/css/oneui.css"> 
   <link rel="stylesheet" href="<?php echo $cdnserver?>assets/css/common.css">
+  <link rel="shortcut icon" href="/static/images/favicon.ico">
   <script src="<?php echo $cdnpublic?>modernizr/2.8.3/modernizr.min.js"></script>
   <!--[if lt IE 9]>
     <script src="<?php echo $cdnpublic?>html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -111,7 +112,7 @@ if(!defined('IN_CRONLITE'))exit();
 		<div class="text-center text-muted">
 			<div class="btn-group btn-group-justified">
                 <div class="btn-group">
-                    <a class="btn btn-default" data-toggle="modal" href="#anounce"><i class="fa fa-wifi"></i> <span style="font-weight:bold"> 平台公告</span></a>
+                    <a class="btn btn-default" data-toggle="modal" href="/"><i class="fa fa-wifi"></i> <span style="font-weight:bold">我们的官网</span></a>
                 </div>
                 <div class="btn-group">
                       <a class="btn btn-default" data-toggle="modal" href="/sqz"><font color="#ff0000"><i class="fa fa-bolt"></i> 授权正版查询</font></a>
@@ -150,20 +151,20 @@ if(!defined('IN_CRONLITE'))exit();
 <!--TAB标签开始-->
 	<div class="block-title">
         <ul class="nav nav-tabs" data-toggle="tabs">
-            <li style="width: 25%;" align="center" class="active"><a href="#shop"><i class="fa fa-shopping-cart"></i> <b>购买</b></a></li>
+            <li style="width: 25%;" align="center" class="active"><a href="#shop"><font color="#FF4000"><i class="fa fa-shopping-cart"></i> <b>购买</b></font></a></li>
             <li style="width: 25%;" align="center" class=""><a href="#search" id="tab-query"><i class="fa fa-search"></i> <b>查询</b></a></li>
-			<li style="width: 25%;" align="center" <?php if($conf['fenzhan_buy']==0){?>class="hide"<?php }?>><a href="#Substation"><font color="#FF4000"><i class="fa fa-location-arrow fa-spin"></i> <b>分站</b></font></a></li>
+			<li style="width: 25%;" align="center" <?php if($conf['fenzhan_buy']==0){?>class="hide"<?php }?>><a href="#Substation"><i class="fa fa-location-arrow fa-spin"></i> <b>分站</b></a></li>
 			<li style="width: 25%;" align="center" <?php if($conf['gift_open']==0||$conf['fenzhan_buy']==1){?>class="hide"<?php }?>><a href="#gift" data-toggle="tab"><span style="font-weight:bold"><i class="fa fa-gift fa-fw"></i> 抽奖</span></a></li>
 			<li style="width: 25%;" align="center" <?php if($conf['iskami']==0||$conf['fenzhan_buy']==1||$conf['gift_open']==1){?>class="hide"<?php }?>><a href="#cardbuy" data-toggle="tab"><span style="font-weight:bold"><i class="glyphicon glyphicon-th"></i> 卡密</span></a></li>
             <li style="width: 25%;" align="center" class=""><a href="#more"><i class="fa fa-list"></i> <b>更多</b></a></li>
-					
+
 </ul>
     </div>
 <!--TAB标签结束-->
     <div class="tab-content">
 <!--在线下单-->
     <div class="tab-pane active" id="shop">
-       <center><div class="shuaibi-tip animated tada  text-center"><i class="fa fa-heart text-danger"></i> <b>［<?=date("m月d号")?>］最新业务通知&nbsp;<a href="#anounce" data-toggle="modal" class="label label-danger"><font color="#FFFFFF">点击查看</font></a></b></div></center> 
+       <center><div class="shuaibi-tip animated tada  text-center"><i class="fa fa-heart text-danger"></i> <b>［<?=date("m月d日")?>］最新公告&nbsp;<a href="#anounce" data-toggle="modal" class="label label-danger"><font color="#FFFFFF">点击查看</font></a></b></div></center> 
 <?php include TEMPLATE_ROOT.'default/shop.inc.php'; ?>
 	</div>
 <!--在线下单-->
@@ -176,11 +177,11 @@ if(!defined('IN_CRONLITE'))exit();
                     <img src="//q4.qlogo.cn/headimg_dl?dst_uin=<?php echo $conf['kfqq'] ?>&spec=100" alt="avatar" class="img-circle img-thumbnail img-thumbnail-avatar">
                 </td>
                 <td>
-                    <h4><strong>签到萌宠机器人官网客服</strong></h4>
-					<i class="fa fa-fw fa-qq text-primary"></i> <?php echo $conf['kfqq'] ?><br><i class="fa fa-fw fa-history text-danger"></i>售后订单问题请联系客服
+                    <h5><strong>签到萌宠机器人官网</strong></h5>
+					<i class="fa fa-fw fa-qq text-primary"></i> <?php echo $conf['kfqq'] ?><br><i class="fa fa-fw fa-history text-danger"></i>购买后请及时联系我哦~
                 </td>
                 <td class="text-right" style="width: 20%;">
-                    <a href="#lxkf" target="_blank" data-toggle="modal" class="btn btn-sm btn-info">联系</a>
+                    <a href="#lxkf" target="_blank" data-toggle="modal" class="btn btn-sm btn-info">联系售后</a>
                 </td>
             </tr>
          </tbody>
@@ -225,13 +226,13 @@ if(!defined('IN_CRONLITE'))exit();
                        <span style="width: 100%;text-align: center;margin-top: 0.8em;font-size: 1.1em;display: block;"><?php echo $conf['fenzhan_price']?>元 / <?php echo $conf['fenzhan_price2']?>元</span></td>
                 </tr>
                 <tr>
-                    <td>一模一样的独立网站</td>
+                    <td>签到萌宠机器人正版授权销售站</td>
                 </tr>
 				<tr>
-                    <td>站长后台和超低秘价</td>
+                    <td>简洁页面和专属后台</td>
                 </tr>
               	<tr>
-                    <td>余额提成满<?php echo $conf['tixian_min']; ?>元提现</td>
+                    <td>余额提成满<?php echo $conf['tixian_min']; ?>元提现，后台超低价格拿卡</td>
                 </tr>
                 <tr>
                     <td><strong>旗舰级可以吃下级分站提成</strong></td>
@@ -323,7 +324,7 @@ if(!defined('IN_CRONLITE'))exit();
                         <i class="fa fa-comments"></i>
                     </div>
                     <h2 class="widget-heading h3">
-                        <strong>在线聊天</strong>
+                        <strong>一起聊天</strong>
                     </h2>
                     <span>你我更亲近</span>
                 </div>
@@ -399,7 +400,7 @@ if(!defined('IN_CRONLITE'))exit();
                     <h2 class="widget-heading h3">
                         <strong>联系我们</strong>
                     </h2>
-                    <span>不要问在不在，直接问问题</span>
+                    <span>不要问在不在,直接问问题</span>
                 </div>
             </a>
         </div>
@@ -460,7 +461,7 @@ if(!defined('IN_CRONLITE'))exit();
     <!--底部导航-->
     <div class="panel panel-default">
         <center>
-            <div class="panel-body"><span style="font-weight:bold"><?php echo $conf['sitename'] ?> <i class="fa fa-heart text-danger"></i> 2019 | </span> </span><a href="./"><span style="font-weight:bold"><?php echo $_SERVER['HTTP_HOST']?></span></a>
+            <div class="panel-body"><span style="font-weight:bold"><?php echo $conf['sitename'] ?> <i class="fa fa-heart text-danger"></i> 2020 | </span> </span><a href="./"><span style="font-weight:bold"><?php echo $_SERVER['HTTP_HOST']?></span></a>
             </div>
     </div>
     <!--底部导航-->
@@ -540,10 +541,10 @@ if(!defined('IN_CRONLITE'))exit();
                             <img src="//q4.qlogo.cn/headimg_dl?dst_uin=<?php echo $conf['kfqq']?>&spec=100" alt="avatar" class="img-circle img-thumbnail img-thumbnail-avatar">
                         </td>
                         <td>
-                            <h5><strong>签到萌宠机器人官网客服</strong></h5>
+                            <h5><strong>签到萌宠机器人官网</strong></h5>
                         </td>
                         <td class="text-right" style="width: 20%;">
-                            <a href="http://wpa.qq.com/msgrd?v=3&amp;uin=<?php echo $conf['kfqq']?>&amp;site=qq&amp;menu=yes" target="_blank" class="btn btn-sm btn-info">咨询</a>
+                            <a href="http://wpa.qq.com/msgrd?v=3&amp;uin=<?php echo $conf['kfqq']?>&amp;site=qq&amp;menu=yes" target="_blank" class="btn btn-sm btn-info">联系售后</a>
                 </td> 
             </tr>
          </tbody>
@@ -707,14 +708,14 @@ while($row = $DB->fetch($rs)){
                     </thead>
 					<tbody>
 						<tr class="active">
-                            <td>独立网站/专属后台</td>
+                            <td>专属网站/专属后台</td>
                             <td class="text-center">
 								<span class="btn btn-effect-ripple btn-xs btn-success" style="overflow: hidden; position: relative;"><i class="fa fa-check"></i></span>
 								<span class="btn btn-effect-ripple btn-xs btn-success" style="overflow: hidden; position: relative;"><i class="fa fa-check"></i></span>
 							</td>
                         </tr>
 						<tr class="">
-                            <td>低价拿货/调整价格</td>
+                            <td>低价拿卡/调整价格</td>
                             <td class="text-center">
 								<span class="btn btn-effect-ripple btn-xs btn-success" style="overflow: hidden; position: relative;"><i class="fa fa-check"></i></span>
 								<span class="btn btn-effect-ripple btn-xs btn-success" style="overflow: hidden; position: relative;"><i class="fa fa-check"></i></span>
@@ -844,6 +845,21 @@ var hashsalt=<?php echo $addsalt_js?>;
 $(function() {
 	$("img.lazy").lazyload({effect: "fadeIn"});
 });
+
+var OriginTitile = document.title;
+  var titleTime;
+document.addEventListener('visibilitychange', function() {
+ if (document.hidden) {
+    document.title = '(つェ⊂)我藏好了哦~ ' + OriginTitile;
+    clearTimeout(titleTime);
+  }
+  else {
+    document.title = '(*´∇｀*) 被你发现啦~ ' + OriginTitile;
+    titleTime = setTimeout(function() {
+        document.title = OriginTitile;
+       }, 2000);
+     }
+  });
 </script>
 <script src="assets/js/main.js?ver=<?php echo VERSION ?>"></script>
 </body>

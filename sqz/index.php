@@ -7,7 +7,7 @@
   <title>签到萌宠机器人-授权站 - 官方网站</title>
   <meta name="keywords" content="签到萌宠机器人-授权站 ">
   <meta name="description" content="签到萌宠机器人,在线授权系统,骗子查询系统,正版查询系统,抵制盗版">
-  <link rel="shortcut icon" href="favicon.css">
+  <link rel="shortcut icon" href="/static/images/favicon.ico">
   <link rel="stylesheet" href="assets/css/nucleo.css" type="text/css">
   <link rel="stylesheet" href="assets/css/fortawesome.css" type="text/css">
   <link rel="stylesheet" href="assets/css/coolcat.min.css" type="text/css">
@@ -326,5 +326,21 @@
   <script src="assets/js/on-screen.umd.min.js"></script>
   <script src="assets/js/coolcat.min.js"></script>
   <script src="assets/js/demo.min.js"></script>
+<script type="text/javascript">
+var OriginTitile = document.title;
+  var titleTime;
+document.addEventListener('visibilitychange', function() {
+ if (document.hidden) {
+    document.title = '(つェ⊂)我藏好了哦~ ' + OriginTitile;
+    clearTimeout(titleTime);
+  }
+  else {
+    document.title = '(*´∇｀*) 被你发现啦~ ' + OriginTitile;
+    titleTime = setTimeout(function() {
+        document.title = OriginTitile;
+       }, 2000);
+     }
+  });
+</script>
 </body>
 </html>

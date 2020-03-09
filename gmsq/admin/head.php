@@ -11,6 +11,7 @@
   <link href="//cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
   <link rel="stylesheet" href="../assets/appui/css/main.css">
   <link rel="stylesheet" href="../assets/appui/css/themes.css">
+  <link rel="shortcut icon" href="/static/images/favicon.ico">
   <link id="theme-link" rel="stylesheet" href="<?php echo $_COOKIE['optionThemeColor']?$_COOKIE['optionThemeColor']:'../assets/appui/css/themes/themes.css';?>">
   <script src="//cdn.staticfile.org/modernizr/2.8.3/modernizr.min.js"></script>
   <script src="//cdn.staticfile.org/jquery/2.1.4/jquery.min.js"></script>
@@ -169,7 +170,7 @@ h4{font-family:"微软雅黑",Georgia,Serif;}
             <div id="sidebar">
                 <div id="sidebar-brand" class="themed-background">
 				<a href="./" class="sidebar-title">
-                    <i class="fa fa-cube"></i> <span class="sidebar-nav-mini-hide">管理后台</span>
+                    <i class="fa fa-cube"></i> <span class="sidebar-nav-mini-hide">签到萌宠机器人</span>
                 </a>
 				</div>
                 <div id="sidebar-scroll">
@@ -388,7 +389,7 @@ h4{font-family:"微软雅黑",Georgia,Serif;}
 </li>
 <li>
 <a class="<?php echo checkIfActive("qiandao2") ?>" href="https://wpa.qq.com/msgrd?v=3&uin=2924070927&site=qq&menu=yes"  target=_blank>
-		联系JKJPro官网开发者
+		联系本套机器人官网开发者
 	</a>
 </li>
 <li>
@@ -401,17 +402,11 @@ h4{font-family:"微软雅黑",Georgia,Serif;}
 		给Lovely God买棒棒糖
 	</a>
 </li>
-<li>
-<a class="<?php echo checkIfActive("pay,epay") ?>3" href="http://lpit.xyz/jqrsqwz">
-		查询您的网站是否正版
-	</a>
-<hr />
-<center>关于正版授权</center><br />
-<p>搭建出来的站长记得联系QQ：2924070927添加你的网站到我的授权站！本套源码设计的初衷是只限JKJPro用户群内的人使用，防止外人盗取源码占为己有！以后如果有外人用这套源码抢我们生意的话，直接放出我的授权站网址让用户查询到您的网站才是正版！！</p>
-</li>
-
-
                         </ul>
+<br>
+<center>当前状态：<font color="green">正版授权</font></center>
+<hr>
+<center>本套网站程序只限销售JKJ Pro<br>外来插件勿扰，谢谢配合！</center>
                     </div>
                 </div>
                 <div id="sidebar-extra-info" class="sidebar-content sidebar-nav-mini-hide">

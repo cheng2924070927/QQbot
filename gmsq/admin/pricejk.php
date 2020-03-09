@@ -39,11 +39,11 @@ else
 <div class="alert alert-info">价格监控支持玖伍、亿乐、聚梦社区类型，可以实现自动修改商品成本价格和商品上下架。使用前请先设置好对接信息！</div>
 <div class="alert alert-success">监控地址：<br/><a style="color:white" target="_blank" href="http://';
 	echo $_SERVER['HTTP_HOST'];
-	echo '/cron.php?do=pricejk&key=';
+	echo '/gmsq/cron.php?do=pricejk&key=';
 	echo $conf['cronkey'];
 	echo '">http://';
 	echo $_SERVER['HTTP_HOST'];
-	echo '/cron.php?do=pricejk&key=';
+	echo '/gmsq/cron.php?do=pricejk&key=';
 	echo $conf['cronkey'];
 	echo '</a></div>
 <div class="alert alert-warning">监控说明：频率10到60分钟一次即可，只能在一个地方监控，千万不要多节点监控或在多处监控，否则会导致数据错乱。</div>

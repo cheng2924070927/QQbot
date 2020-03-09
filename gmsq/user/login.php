@@ -59,7 +59,7 @@ include './head2.php';
               <input type="password" name="pass" class="form-control" required="required" placeholder="密码"/>
             </div><br/>
             <div class="form-group">
-              <input type="submit" value="立即登陆" class="btn btn-primary btn-block"/>
+              <input type="submit" value="立即登录" class="btn btn-primary btn-block"/>
             </div>
 			<hr>
 			<div class="form-group">

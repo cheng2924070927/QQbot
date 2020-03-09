@@ -24,7 +24,6 @@ $data=get_curl($payapi.'api.php?act=query&pid='.$conf['epay_pid'].'&key='.$conf[
 
 $arr=json_decode($data,true);
 ?>
-
 <div class="col-sm-6 col-lg-3">
 	<a href="javascript:void(0)" class="widget">
 	<div class="widget-content widget-content-mini text-right clearfix">
@@ -162,7 +161,7 @@ $arr=json_decode($data,true);
 说明
 </div>
   <div class="widget-content border-bottom">
-    <font color="green">快来加本萌的群鸭！QQ群：<a href="https://jq.qq.com/?_wv=1027&k=53sXSlP"  target=_blank>826967547</a></font><br/>当前版本：JKJPro用户群内部版本<hr/>都是自己人未添加任何后门(包括官网、授权站、销售系统)<br />您不放心可以自己扫描一下，都是可以的<hr />我分享这套网站并没有获得任何收益，做为一个前端萌新的我只是想锻炼一下自己的能力，但人总是要恰饭的(暗示我穷啦嘻嘻~)，不要做白嫖党，欢迎来赞助我~<br />赞助地址:<a href="https://lovek.me/donate/" target="_blank">https://lovek.me/donate/</a><br />付款备注请留下你的QQ号，感谢！</div>
+    <font color="green">快来加本萌的群鸭！QQ群：<a href="https://jq.qq.com/?_wv=1027&k=53sXSlP"  target=_blank>826967547</a><br/>当前版本：JKJPro用户群内部版本（v1.0.0）</font><hr/><font color="green">公告：<br/>本套网站会一直更新下去,有bug请及时上报，联系QQ：2924070927</font><hr />分享这套网站并没有获得任何收益,做为一个前端萌新的我只是把这个项目当做是一个小练习demo，大神勿喷,但人总是要恰饭的(暗示我穷啦嘻嘻~)拒绝白嫖党，欢迎赞助~<br />赞助地址:<a href="https://lovek.me/donate/" target="_blank">https://lovek.me/donate/</a><br />付款备注请留下你的QQ号，感谢！</div>
 <div class="widget-content border-bottom">
 </ul>
 </div>

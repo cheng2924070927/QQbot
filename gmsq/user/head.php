@@ -21,6 +21,7 @@ if($conf['cdnpublic']==1){
   <title><?php echo $title ?></title>
   <link href="<?php echo $cdnpublic?>twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"/>
   <link href="<?php echo $cdnpublic?>font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+  <link rel="shortcut icon" href="/static/images/favicon.ico">
   <script src="<?php echo $cdnpublic?>jquery/1.12.4/jquery.min.js"></script>
   <script src="<?php echo $cdnpublic?>twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <!--[if lt IE 9]>

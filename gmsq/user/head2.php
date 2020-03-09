@@ -52,6 +52,7 @@ if($conf['ui_bing']==1){
   <link rel="stylesheet" href="<?php echo $cdnserver?>assets/simple/css/plugins.css">
   <link rel="stylesheet" href="<?php echo $cdnserver?>assets/simple/css/main.css">
   <link rel="stylesheet" href="<?php echo $cdnserver?>assets/css/common.css">
+  <link rel="shortcut icon" href="/static/images/favicon.ico">
   <script src="<?php echo $cdnpublic?>modernizr/2.8.3/modernizr.min.js"></script>
   <!--[if lt IE 9]>
     <script src="<?php echo $cdnpublic?>html5shiv/3.7.3/html5shiv.min.js"></script>
