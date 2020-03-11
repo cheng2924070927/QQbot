@@ -28,7 +28,7 @@ $cron_money = $DB->get_column("SELECT `v` FROM `shua_config` WHERE `k` = 'cron_r
 <div class="block">
 <div class="block-title"><h3 class="panel-title">分站排行奖励设置</h3>&nbsp;&nbsp;[<a href="rank.php">返回</a>]</div>
 <div class="">
-<div class="alert alert-success">监控地址：<br/><a style="color:white" target="_blank" href="http://<?php echo $_SERVER['HTTP_HOST'] ?>/cron.php?do=rank&key=<?php echo $conf['cronkey']; ?>">http://<?php echo $_SERVER['HTTP_HOST'] ?>/cron.php?do=rank&key=<?php echo $conf['cronkey']; ?></a></div>
+<div class="alert alert-success">监控地址：<br/><a style="color:white" target="_blank" href="http://<?php echo $_SERVER['HTTP_HOST'] ?>/gmsq/cron.php?do=rank&key=<?php echo $conf['cronkey']; ?>">http://<?php echo $_SERVER['HTTP_HOST'] ?>/gmsq/cron.php?do=rank&key=<?php echo $conf['cronkey']; ?></a></div>
 <div class="alert alert-warning">监控说明：每天一次或1小时一次都可以，只能在一个地方监控，千万不要多节点监控或在多处监控，否则会导致数据错乱。也可以每天凌晨手动打开一次。</div>
   <form action="./rank.php?my=setdo" method="post" class="form-horizontal" role="form"><input type="hidden" name="do" value="submit"/>
     <div class="form-group">

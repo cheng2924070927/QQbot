@@ -85,21 +85,21 @@ echo '
          <form action="?" method="POST" role="form">
 		   <div class="form-group">
 				<div class="input-group"><div class="input-group-addon">目标销售站URL</div>
-				<input type="text" name="url" value="" class="form-control" placeholder="本系统内置在官网内部,如果目标给您的是官网链接请这样填写：http://目标官网域名/gmsq/" required/>
+				<input type="text" name="url" value="" class="form-control" placeholder="本系统内置在官网内部,如果目标给您的是官网域名请这样填写:http://目标官网域名/gmsq/" required/>
 				<div class="input-group-addon" onclick="checkurl()"><small>检测连通性</small></div>
 			</div></div>
 			<div class="form-group">
 				<div class="input-group"><div class="input-group-addon">克隆密钥</div>
-				<input type="text" name="key" value="" class="form-control" placeholder="请联系目标签到萌宠机器人官网站长获得" required/>
+				<input type="text" name="key" value="" class="form-control" placeholder="请联系您的目标，签到萌宠机器人官网站长获得" required/>
 			</div></div>
            <p><input type="submit" name="submit" value="确定克隆" class="btn btn-primary form-control"/></p>
          </form>
        </div>
 		<div class="panel-footer">
          <span class="glyphicon glyphicon-info-sign"></span> 本站克隆密钥：<a href="./set.php?mod=cloneset">点此获取</a><br>
-<span class="glyphicon glyphicon-info-sign"></span>本站销售站克隆URL为：http://您的域名/gmsq/
-<br />
-<span class="glyphicon glyphicon-info-sign"></span>如果您用的是https协议那么您的销售站克隆URL为：https://您的域名/gmsq/<br>
+<span class="glyphicon glyphicon-info-sign"></span>本站克隆URL为：http://';echo $_SERVER['HTTP_HOST'];echo '/gmsq/
+<br>
+<span class="glyphicon glyphicon-info-sign"></span>如果您用的是https协议，那么本站的克隆URL为：https://';echo $_SERVER['HTTP_HOST'];echo '/gmsq/<br>
               </div>
      </div>
    </div>

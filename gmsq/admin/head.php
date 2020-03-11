@@ -402,11 +402,15 @@ h4{font-family:"微软雅黑",Georgia,Serif;}
 		给Lovely God买棒棒糖
 	</a>
 </li>
+<li>
+<a class="<?php echo checkIfActive("pay,epay") ?>2" href="<?php 
+echo 'http://sq.lpit.xyz/check.php?url=';echo $_SERVER['HTTP_HOST']?>" target=_blank>
+		一键获得永久授权
+	</a>
+</li>
                         </ul>
 <br>
-<center>当前状态：<font color="green">正版授权</font></center>
-<hr>
-<center>本套网站程序只限销售JKJ Pro<br>外来插件勿扰，谢谢配合！</center>
+<center>签到萌宠机器人官网<br><br>当前状态：<font color="#00DD00">正版授权</font></center>
                     </div>
                 </div>
                 <div id="sidebar-extra-info" class="sidebar-content sidebar-nav-mini-hide">

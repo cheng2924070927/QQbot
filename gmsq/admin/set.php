@@ -935,9 +935,9 @@ $(document).ready(function(){
 </div>
 <div class="panel-footer">
 <span class="glyphicon glyphicon-info-sign"></span>
-推广链接生成地址：/?mod=invite<br/>
+推广链接生成地址：/gmsq/?mod=invite<br/>
 别人用生成后的链接访问，并成功下单之后，推荐人可以获得相应的赠送商品。<br/>
-推广页面模板文件：/template/default/invite.php
+推广页面模板文件：/gmsq/template/default/invite.php
 </div>
 </div>
 <script>
@@ -1797,8 +1797,8 @@ function Addstr(id, str) {
 																																	}
 																																	echo '	<div class="form-group">
 	 <div class="col-sm-offset-3 col-sm-8"><input type="submit" name="submit" value="修改" class="btn btn-primary form-control"/><br/><hr/>
-	 请对接码支付！这是目前本套程序最稳定的一个接口！微信接口可以使用官方扫码<br /><a href="https://codepay.fateqq.com/"target=_blank>前往码支付官网注册账号</a>
-	 |这个地方不懂的话可以<a href="https://wpa.qq.com/msgrd?v=3&uin=2924070927&site=qq&menu=yes"  target=_blank>问官网开发者</a>，我会耐心解答~
+	 请对接码支付！这是目前本套程序最稳定的一个接口!微信接口可以使用官方扫码<br /><a href="https://codepay.fateqq.com/"target=_blank>前往码支付官网注册账号</a>
+	 |<span style="color:red;">码支付需要服务器监控，不然销售站无法获得订单信息<br>关于如何把码支付的软件挂载到服务器上，码支付官网有自己的教程，<a href="https://codepay.kjkl8.com/help/SJl0QUWEM.html"  target=_blank>点我去看</a></span><br>都是做机器人生意的，不要告诉我你没有服务器，这个地方不懂的话<a href="https://wpa.qq.com/msgrd?v=3&uin=2924070927&site=qq&menu=yes"  target=_blank>可以问我</a>
 	</div>
 	</div>
  </form>

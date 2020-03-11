@@ -106,7 +106,7 @@ $arr=json_decode($data,true);
 <p>正正当当做人</p>
 <hr />
 					<h4 class="widget-heading"><i class="fa fa-credit-card text-dark push-bit"></i>&nbsp;支付宝交易额<br>
-					<center><span id="count14"></span>元</center></h4><hr /><a href="/gmsq" target="_blank">前往销售站</a><hr /><a href="login.php?logout" target="_blank">安全退出销售后台</a><br /><br />
+					<center><span id="count14"></span>元</center></h4><hr /><a href="/gmsq" target="_blank">前往销售站</a><hr /><a href="login.php?logout">安全退出销售后台</a><br /><br />
 				</div>
 			</div>
 		</div>
