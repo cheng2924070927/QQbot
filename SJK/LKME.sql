@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net
 --
 -- 主机: localhost:3306
--- 生成日期: 2020-03-12 04:44:04
+-- 生成日期: 2020-03-12 18:25:47
 -- 服务器版本: 5.6.43
 -- PHP 版本: 5.3.29
 
@@ -37,7 +37,7 @@ CREATE TABLE IF NOT EXISTS `auth_daili` (
   `dlip` varchar(15) DEFAULT NULL,
   `active` int(1) DEFAULT NULL,
   PRIMARY KEY (`uid`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=5 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=6 ;
 
 -- --------------------------------------------------------
 
@@ -53,7 +53,7 @@ CREATE TABLE IF NOT EXISTS `auth_log` (
   `city` varchar(20) DEFAULT NULL,
   `data` text,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=31 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=38 ;
 
 --
 -- 转存表中的数据 `auth_log`
@@ -89,7 +89,14 @@ INSERT INTO `auth_log` (`id`, `uid`, `type`, `date`, `city`, `data`) VALUES
 (27, 'admin', '登录平台', '2020-03-10 04:12:26', '', 'IP:223.90.130.32'),
 (28, 'admin', '新增授权', '2020-03-10 04:12:38', '', '2924070927'),
 (29, 'admin', '登录平台', '2020-03-12 04:24:21', '', 'IP:223.90.130.32'),
-(30, 'admin', '删除授权', '2020-03-12 04:27:59', '', '2924070927');
+(30, 'admin', '删除授权', '2020-03-12 04:27:59', '', '2924070927'),
+(31, 'admin', '登录平台', '2020-03-12 17:24:56', '', 'IP:223.90.130.12'),
+(32, 'admin', '新增授权', '2020-03-12 17:26:07', '', '1'),
+(33, 'admin', '删除授权', '2020-03-12 17:27:04', '', '1'),
+(34, '1', '登陆平台', '2020-03-12 17:27:47', '', 'IP:223.90.130.12'),
+(35, '1', '新增授权', '2020-03-12 17:28:16', '', '1'),
+(36, '1', '删除授权', '2020-03-12 17:28:51', '', '1'),
+(37, '1', '登陆平台', '2020-03-12 17:30:10', '', 'IP:223.90.130.12');
 
 -- --------------------------------------------------------
 
@@ -106,7 +113,7 @@ CREATE TABLE IF NOT EXISTS `auth_qqs` (
   `sign` varchar(20) DEFAULT NULL,
   `active` int(1) DEFAULT '1',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=7 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=9 ;
 
 -- --------------------------------------------------------
 
@@ -129,7 +136,7 @@ CREATE TABLE IF NOT EXISTS `auth_user` (
 --
 
 INSERT INTO `auth_user` (`uid`, `user`, `pass`, `last`, `dlip`, `active`) VALUES
-(1, 'admin', '123456', '2020-03-12 04:31:17', '223.90.130.32', 1);
+(1, 'admin', '123456', '2020-03-12 18:19:47', '223.90.130.12', 1);
 
 -- --------------------------------------------------------
 
@@ -148,7 +155,7 @@ CREATE TABLE IF NOT EXISTS `shua_cache` (
 --
 
 INSERT INTO `shua_cache` (`k`, `v`) VALUES
-('config', 'a:100:{s:10:"adminlogin";s:19:"2020-03-12 03:58:29";s:9:"admin_pwd";s:6:"123456";s:10:"admin_user";s:5:"admin";s:5:"alert";s:0:"";s:11:"alipay2_api";s:1:"0";s:10:"alipay_api";s:1:"5";s:10:"alipay_key";s:0:"";s:10:"alipay_pid";s:0:"";s:7:"anounce";s:1232:"<p>\r\n<li class="list-group-item"><span class="btn btn-danger btn-xs">1</span> 签到萌宠机器人正版销售站</li>\r\n<li class="list-group-item"><span class="btn btn-success btn-xs">2</span> 下单后请联系我们的官方客服QQ：2924070927进行授权</li>\r\n<li class="list-group-item"><span class="btn btn-info btn-xs">3</span> 请在下单后的三天内联系我们，过期作废，请熟知！</li>\r\n<li class="list-group-item"><span class="btn btn-warning btn-xs">4</span> 只要是这里有的都可以正常下单，有问题可以联系客服</li>\r\n<li class="list-group-item"><span class="btn btn-primary btn-xs">5</span>这是一款支持50+签到业务、拥有多种功能的全智能机器人<br />一键签到,一健萌宠，功能丰富多彩！</li>\r\n<div class="btn-group btn-group-justified">\r\n<a target="_blank" class="btn btn-info" href="http://wpa.qq.com/msgrd?v=3&uin=2924070927&site=qq&menu=yes"><i class="fa fa-qq"></i> 联系官方客服</a>\r\n<a target="_blank" class="btn btn-warning" href="https://jq.qq.com/?_wv=1027&k=5pfaVtr"><i class="fa fa-users"></i> 加入官方QQ群</a>\r\n<a target="_blank" class="btn btn-danger" href="./"><i class="fa fa-cloud-download"></i> APP下载</a>\r\n</div></p>";s:6:"apikey";s:5:"29240";s:8:"appalert";s:0:"";s:6:"appurl";s:0:"";s:9:"blacklist";s:0:"";s:6:"bottom";s:0:"";s:5:"build";s:10:"2020-03-02";s:10:"captcha_id";s:0:"";s:11:"captcha_key";s:0:"";s:12:"captcha_open";s:1:"0";s:9:"cdnpublic";s:1:"1";s:9:"cdnserver";s:1:"0";s:9:"chatframe";s:0:"";s:5:"cishu";s:1:"3";s:7:"cjcishu";s:1:"3";s:7:"cjmoney";s:1:"0";s:5:"cjmsg";s:89:"您已经抽了三次啦！！！明天再来吧！<br />爱你么么哒~╰(￣ω￣ｏ)";s:10:"codepay_id";s:6:"478561";s:11:"codepay_key";s:32:"pLJYO6htwIbJsUWaGBmVSmGjm0vJiMIA";s:7:"cronkey";s:5:"29240";s:9:"datepoint";s:508:"a:7:{i:0;a:3:{s:4:"date";s:4:"0311";s:6:"orders";s:1:"0";s:5:"money";d:0;}i:1;a:3:{s:4:"date";s:4:"0309";s:6:"orders";s:1:"3";s:5:"money";d:0.029999999999999999;}i:2;a:3:{s:4:"date";s:4:"0308";s:6:"orders";s:1:"0";s:5:"money";d:0;}i:3;a:3:{s:4:"date";s:4:"0305";s:6:"orders";s:1:"0";s:5:"money";d:0;}i:4;a:3:{s:4:"date";s:4:"0304";s:6:"orders";s:1:"0";s:5:"money";d:0;}i:5;a:3:{s:4:"date";s:4:"0303";s:6:"orders";s:1:"0";s:5:"money";d:0;}i:6;a:3:{s:4:"date";s:4:"0302";s:6:"orders";s:1:"0";s:5:"money";d:0;}}";s:4:"ddxg";s:4:"9999";s:11:"description";s:112:"这是一款支持50+签到业务的机器人,一键签到,一健萌宠，QQ空间云访客，功能丰富多彩";s:8:"epay_key";s:0:"";s:8:"epay_pid";s:0:"";s:8:"epay_url";s:0:"";s:10:"faka_input";s:1:"0";s:9:"faka_mail";s:231:"<b>商品名称：</b> [name]<br/><b>购买时间：</b>[date]<br/><b>以下是你的卡密信息：</b><br/>[kmdata]<br/>----------<br/><b>使用说明：</b><br/>[alert]<br/>----------<br/>签到萌宠机器人官网<br/>[domain]";s:12:"fanghong_url";s:38:"https://www.99zuan.cn/dwz.php?longurl=";s:11:"fenzhan_buy";s:1:"0";s:12:"fenzhan_cost";s:0:"";s:13:"fenzhan_cost2";s:0:"";s:14:"fenzhan_domain";s:110:"baidu.com,qq.com,请在后台配置一个专属开分站的域名.com,不支持官网域名直接开分站.com";s:13:"fenzhan_editd";s:0:"";s:14:"fenzhan_expiry";s:2:"12";s:12:"fenzhan_free";s:1:"0";s:12:"fenzhan_html";s:1:"0";s:12:"fenzhan_kami";s:1:"0";s:12:"fenzhan_page";s:1:"0";s:13:"fenzhan_price";s:3:"100";s:14:"fenzhan_price2";s:3:"200";s:14:"fenzhan_remain";s:0:"";s:13:"fenzhan_skimg";s:1:"0";s:16:"fenzhan_template";s:1:"0";s:14:"fenzhan_tixian";s:1:"0";s:15:"fenzhan_upgrade";s:0:"";s:11:"gg_announce";s:0:"";s:8:"gg_panel";s:0:"";s:10:"gg_reguser";s:0:"";s:9:"gg_search";s:464:"<span class="label label-primary">待处理</span> 说明您还没联系到我们的官方客服！请尽快联系！<p></p><p></p><span class="label label-success">已完成</span> 说明您的订单已处理完毕！<p></p><p></p><span class="label label-warning">处理中</span> 说明您正在和官方客服协商！<p></p><p></p><span class="label label-danger">有异常</span> 说明您没有联系我们或您的这一单出现了预料之外的情况！";s:8:"gift_log";s:1:"1";s:9:"gift_open";s:1:"1";s:11:"hide_tongji";s:1:"1";s:6:"iskami";s:1:"0";s:5:"kaurl";s:0:"";s:8:"keywords";s:91:"一键签到,一键萌宠,QQ空间云访客,自助下单,签到萌宠机器人,正版授权";s:4:"kfqq";s:10:"2924070927";s:6:"lqqapi";s:0:"";s:9:"mail_port";s:3:"465";s:9:"mail_smtp";s:11:"smtp.qq.com";s:5:"modal";s:0:"";s:8:"musicurl";s:0:"";s:6:"payapi";s:0:"";s:11:"pricejk_cid";s:1:"1";s:12:"pricejk_edit";s:1:"0";s:12:"pricejk_time";s:3:"600";s:11:"qiandao_day";s:1:"0";s:12:"qiandao_mult";s:1:"0";s:14:"qiandao_reward";s:1:"0";s:6:"qqjump";s:1:"0";s:9:"qqpay_api";s:1:"5";s:12:"shoppingcart";s:1:"1";s:8:"sitename";s:33:"签到萌宠机器人授权购买";s:5:"style";s:1:"1";s:6:"syskey";s:32:"1I21ZjQ14ioQsOglIMSLXWmGwb5AM5aG";s:8:"template";s:8:"yunshang";s:10:"tenpay_api";s:1:"0";s:10:"tenpay_key";s:0:"";s:10:"tenpay_pid";s:0:"";s:5:"title";s:18:"官方正版授权";s:10:"tixian_min";s:2:"10";s:11:"tixian_rate";s:2:"90";s:16:"tongji_cachetime";s:10:"1583179093";s:11:"tongji_time";s:3:"300";s:13:"ui_background";s:1:"3";s:7:"ui_bing";s:1:"0";s:7:"ui_shop";s:1:"2";s:10:"user_level";s:1:"0";s:9:"user_open";s:1:"0";s:11:"verify_open";s:1:"1";s:7:"version";s:4:"2009";s:9:"wxpay_api";s:1:"1";}'),
+('config', 'a:100:{s:10:"adminlogin";s:19:"2020-03-12 04:22:31";s:9:"admin_pwd";s:6:"123456";s:10:"admin_user";s:5:"admin";s:5:"alert";s:0:"";s:11:"alipay2_api";s:1:"0";s:10:"alipay_api";s:1:"5";s:10:"alipay_key";s:0:"";s:10:"alipay_pid";s:0:"";s:7:"anounce";s:1232:"<p>\r\n<li class="list-group-item"><span class="btn btn-danger btn-xs">1</span> 签到萌宠机器人正版销售站</li>\r\n<li class="list-group-item"><span class="btn btn-success btn-xs">2</span> 下单后请联系我们的官方客服QQ：2924070927进行授权</li>\r\n<li class="list-group-item"><span class="btn btn-info btn-xs">3</span> 请在下单后的三天内联系我们，过期作废，请熟知！</li>\r\n<li class="list-group-item"><span class="btn btn-warning btn-xs">4</span> 只要是这里有的都可以正常下单，有问题可以联系客服</li>\r\n<li class="list-group-item"><span class="btn btn-primary btn-xs">5</span>这是一款支持50+签到业务、拥有多种功能的全智能机器人<br />一键签到,一健萌宠，功能丰富多彩！</li>\r\n<div class="btn-group btn-group-justified">\r\n<a target="_blank" class="btn btn-info" href="http://wpa.qq.com/msgrd?v=3&uin=2924070927&site=qq&menu=yes"><i class="fa fa-qq"></i> 联系官方客服</a>\r\n<a target="_blank" class="btn btn-warning" href="https://jq.qq.com/?_wv=1027&k=5pfaVtr"><i class="fa fa-users"></i> 加入官方QQ群</a>\r\n<a target="_blank" class="btn btn-danger" href="./"><i class="fa fa-cloud-download"></i> APP下载</a>\r\n</div></p>";s:6:"apikey";s:5:"29240";s:8:"appalert";s:0:"";s:6:"appurl";s:0:"";s:9:"blacklist";s:0:"";s:6:"bottom";s:0:"";s:5:"build";s:10:"2020-03-02";s:10:"captcha_id";s:0:"";s:11:"captcha_key";s:0:"";s:12:"captcha_open";s:1:"0";s:9:"cdnpublic";s:1:"1";s:9:"cdnserver";s:1:"0";s:9:"chatframe";s:0:"";s:5:"cishu";s:1:"3";s:7:"cjcishu";s:1:"3";s:7:"cjmoney";s:1:"0";s:5:"cjmsg";s:89:"您已经抽了三次啦！！！明天再来吧！<br />爱你么么哒~╰(￣ω￣ｏ)";s:10:"codepay_id";s:6:"478561";s:11:"codepay_key";s:32:"pLJYO6htwIbJsUWaGBmVSmGjm0vJiMIA";s:7:"cronkey";s:5:"29240";s:9:"datepoint";s:508:"a:7:{i:0;a:3:{s:4:"date";s:4:"0311";s:6:"orders";s:1:"0";s:5:"money";d:0;}i:1;a:3:{s:4:"date";s:4:"0309";s:6:"orders";s:1:"3";s:5:"money";d:0.029999999999999999;}i:2;a:3:{s:4:"date";s:4:"0308";s:6:"orders";s:1:"0";s:5:"money";d:0;}i:3;a:3:{s:4:"date";s:4:"0305";s:6:"orders";s:1:"0";s:5:"money";d:0;}i:4;a:3:{s:4:"date";s:4:"0304";s:6:"orders";s:1:"0";s:5:"money";d:0;}i:5;a:3:{s:4:"date";s:4:"0303";s:6:"orders";s:1:"0";s:5:"money";d:0;}i:6;a:3:{s:4:"date";s:4:"0302";s:6:"orders";s:1:"0";s:5:"money";d:0;}}";s:4:"ddxg";s:4:"9999";s:11:"description";s:112:"这是一款支持50+签到业务的机器人,一键签到,一健萌宠，QQ空间云访客，功能丰富多彩";s:8:"epay_key";s:0:"";s:8:"epay_pid";s:0:"";s:8:"epay_url";s:0:"";s:10:"faka_input";s:1:"0";s:9:"faka_mail";s:231:"<b>商品名称：</b> [name]<br/><b>购买时间：</b>[date]<br/><b>以下是你的卡密信息：</b><br/>[kmdata]<br/>----------<br/><b>使用说明：</b><br/>[alert]<br/>----------<br/>签到萌宠机器人官网<br/>[domain]";s:12:"fanghong_url";s:38:"https://www.99zuan.cn/dwz.php?longurl=";s:11:"fenzhan_buy";s:1:"0";s:12:"fenzhan_cost";s:0:"";s:13:"fenzhan_cost2";s:0:"";s:14:"fenzhan_domain";s:110:"baidu.com,qq.com,请在后台配置一个专属开分站的域名.com,不支持官网域名直接开分站.com";s:13:"fenzhan_editd";s:0:"";s:14:"fenzhan_expiry";s:2:"12";s:12:"fenzhan_free";s:1:"0";s:12:"fenzhan_html";s:1:"0";s:12:"fenzhan_kami";s:1:"0";s:12:"fenzhan_page";s:1:"0";s:13:"fenzhan_price";s:3:"100";s:14:"fenzhan_price2";s:3:"200";s:14:"fenzhan_remain";s:0:"";s:13:"fenzhan_skimg";s:1:"0";s:16:"fenzhan_template";s:1:"0";s:14:"fenzhan_tixian";s:1:"0";s:15:"fenzhan_upgrade";s:0:"";s:11:"gg_announce";s:0:"";s:8:"gg_panel";s:0:"";s:10:"gg_reguser";s:0:"";s:9:"gg_search";s:464:"<span class="label label-primary">待处理</span> 说明您还没联系到我们的官方客服！请尽快联系！<p></p><p></p><span class="label label-success">已完成</span> 说明您的订单已处理完毕！<p></p><p></p><span class="label label-warning">处理中</span> 说明您正在和官方客服协商！<p></p><p></p><span class="label label-danger">有异常</span> 说明您没有联系我们或您的这一单出现了预料之外的情况！";s:8:"gift_log";s:1:"1";s:9:"gift_open";s:1:"1";s:11:"hide_tongji";s:1:"1";s:6:"iskami";s:1:"0";s:5:"kaurl";s:0:"";s:8:"keywords";s:91:"一键签到,一键萌宠,QQ空间云访客,自助下单,签到萌宠机器人,正版授权";s:4:"kfqq";s:10:"2924070927";s:6:"lqqapi";s:0:"";s:9:"mail_port";s:3:"465";s:9:"mail_smtp";s:11:"smtp.qq.com";s:5:"modal";s:0:"";s:8:"musicurl";s:0:"";s:6:"payapi";s:0:"";s:11:"pricejk_cid";s:1:"1";s:12:"pricejk_edit";s:1:"0";s:12:"pricejk_time";s:3:"600";s:11:"qiandao_day";s:1:"0";s:12:"qiandao_mult";s:1:"0";s:14:"qiandao_reward";s:1:"0";s:6:"qqjump";s:1:"0";s:9:"qqpay_api";s:1:"5";s:12:"shoppingcart";s:1:"1";s:8:"sitename";s:33:"签到萌宠机器人授权购买";s:5:"style";s:1:"1";s:6:"syskey";s:32:"1I21ZjQ14ioQsOglIMSLXWmGwb5AM5aG";s:8:"template";s:8:"yunshang";s:10:"tenpay_api";s:1:"0";s:10:"tenpay_key";s:0:"";s:10:"tenpay_pid";s:0:"";s:5:"title";s:18:"官方正版授权";s:10:"tixian_min";s:2:"10";s:11:"tixian_rate";s:2:"90";s:16:"tongji_cachetime";s:10:"1583179093";s:11:"tongji_time";s:3:"300";s:13:"ui_background";s:1:"3";s:7:"ui_bing";s:1:"0";s:7:"ui_shop";s:1:"2";s:10:"user_level";s:1:"0";s:9:"user_open";s:1:"0";s:11:"verify_open";s:1:"1";s:7:"version";s:4:"2009";s:9:"wxpay_api";s:1:"0";}'),
 ('tongji', 'a:7:{s:6:"orders";s:1:"0";s:7:"orders1";s:1:"0";s:7:"orders2";s:1:"0";s:5:"money";d:0;s:6:"money1";d:0;s:4:"site";s:1:"0";s:4:"gift";N;}');
 
 -- --------------------------------------------------------
@@ -315,7 +322,7 @@ INSERT INTO `shua_config` (`k`, `v`) VALUES
 ('user_open', '0'),
 ('verify_open', '1'),
 ('version', '2009'),
-('wxpay_api', '1');
+('wxpay_api', '0');
 
 -- --------------------------------------------------------
 
@@ -381,7 +388,7 @@ CREATE TABLE IF NOT EXISTS `shua_giftlog` (
   `input` varchar(64) DEFAULT NULL,
   `status` tinyint(2) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=14 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=15 ;
 
 --
 -- 转存表中的数据 `shua_giftlog`
@@ -400,7 +407,8 @@ INSERT INTO `shua_giftlog` (`id`, `zid`, `tid`, `gid`, `userid`, `ip`, `addtime`
 (10, 1, 0, 0, 'f6751eaa4160ae347859a635e77c907e', '223.90.130.32', '2020-03-06 00:59:28', NULL, NULL, 0),
 (11, 1, 0, 0, '464d6c46e563cead1acc866cc75b7cae', '223.90.130.32', '2020-03-09 23:53:15', NULL, NULL, 0),
 (12, 1, 0, 0, '464d6c46e563cead1acc866cc75b7cae', '223.90.130.32', '2020-03-09 23:53:20', NULL, NULL, 0),
-(13, 1, 0, 0, '464d6c46e563cead1acc866cc75b7cae', '223.90.130.32', '2020-03-09 23:53:24', NULL, NULL, 0);
+(13, 1, 0, 0, '464d6c46e563cead1acc866cc75b7cae', '223.90.130.32', '2020-03-09 23:53:24', NULL, NULL, 0),
+(14, 1, 0, 0, '1ce5e6cd3bf7510f8e413a4943263f83', '223.90.130.12', '2020-03-12 17:23:42', NULL, NULL, 0);
 
 -- --------------------------------------------------------
 
@@ -589,7 +597,8 @@ INSERT INTO `shua_pay` (`trade_no`, `type`, `zid`, `tid`, `input`, `num`, `addti
 ('20200309200007441', 'qqpay', 1, 24, '2924070927', 1, '2020-03-09 20:00:07', '2020-03-09 21:42:46', '测试商品', '0.01', '223.90.130.32', '5adedc3b1d9290a412cbbad74cc7bc29', 0, NULL, 1),
 ('20200309215108699', 'qqpay', 1, 24, '292470927', 1, '2020-03-09 21:51:08', '2020-03-09 21:53:21', '测试商品', '0.01', '223.90.130.32', '5adedc3b1d9290a412cbbad74cc7bc29', 0, NULL, 1),
 ('20200309215748143', 'wxpay', 1, 24, '1265818203', 1, '2020-03-09 21:57:48', NULL, '测试商品', '0.01', '223.90.130.32', '5adedc3b1d9290a412cbbad74cc7bc29', 0, NULL, 0),
-('20200309215817889', 'alipay', 1, 24, '1265818203', 1, '2020-03-09 21:58:17', '2020-03-09 21:58:53', '测试商品', '0.01', '223.90.130.32', '5adedc3b1d9290a412cbbad74cc7bc29', 0, NULL, 1);
+('20200309215817889', 'alipay', 1, 24, '1265818203', 1, '2020-03-09 21:58:17', '2020-03-09 21:58:53', '测试商品', '0.01', '223.90.130.32', '5adedc3b1d9290a412cbbad74cc7bc29', 0, NULL, 1),
+('20200312172354945', 'alipay', 1, 1, '1|1', 1, '2020-03-12 17:23:54', NULL, '签到萌宠机器人-月卡', '8', '223.90.130.12', '1ce5e6cd3bf7510f8e413a4943263f83', 0, NULL, 0);
 
 -- --------------------------------------------------------
 
