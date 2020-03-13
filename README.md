@@ -18,7 +18,7 @@
 
 ## 演示站
 
-- https://lpit.xyz/
+- http://gw.lpit.xyz/
 
 
 ## 搭建方法
@@ -28,7 +28,7 @@
 
 ## 谁在使用？
 
-- https://lpit.xyz/
+- http://gw.lpit.xyz/
 
 
 ## 捐赠
