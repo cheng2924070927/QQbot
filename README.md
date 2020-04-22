@@ -19,21 +19,20 @@
 ## 演示站
 
 - http://gw.lpit.xyz/
-- http://sq.pipii.cn/
-- http://azg.tfkeji.top/
-- http://bot.rizzo.ga/
-- http://robort.520hly.com/
-- http://jk.qfydhy.xyz/
-
 
 ## 搭建方法
 
-- https://LovelyGod.github.io/
+- https://lovelygod.github.io/av13/
 
 
 ## 谁在使用？
 
 - http://gw.lpit.xyz/
+- http://sq.pipii.cn/
+- http://azg.tfkeji.top/
+- http://bot.rizzo.ga/
+- http://robort.520hly.com/
+- http://jk.qfydhy.xyz/
 
 
 ## 捐赠
