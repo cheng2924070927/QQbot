@@ -47,4 +47,4 @@
 **签到萌宠机器人官网** © [Lovely God](https://github.com/cheng2924070927)<br>
 由Lovely God在贡献者的帮助下创作和维护([list](https://github.com/cheng2924070927/QQbot/contributors)).
 
-> Blog [@lovek](https://lovek.me) · GitHub [@Lovely God](https://github.com/cheng2924070927) · Twitter [@Lovely God](https://twitter.com/lovelygod3) · Telegram Channel [@lovelygdo3](https://t.me/lovelygdo3)
+> Blog [@lovek.me](https://lovek.me) · GitHub [@Lovely God](https://github.com/cheng2924070927) · Twitter [@Lovely God](https://twitter.com/lovelygod3) · Telegram Channel [@lovelygdo3](https://t.me/lovelygdo3)
