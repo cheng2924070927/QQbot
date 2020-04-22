@@ -161,7 +161,7 @@ $arr=json_decode($data,true);
 说明
 </div>
   <div class="widget-content border-bottom">
-    <font color="green">快来加本萌的群鸭！QQ群：<a href="https://jq.qq.com/?_wv=1027&k=53sXSlP"  target=_blank>826967547</a><br/>当前版本：JKJPro用户群内部版本（v1.0.0）</font><hr/><font color="green">公告：<br/>本套网站会一直更新下去,有bug请及时上报，联系QQ：2924070927</font><hr />分享这套网站并没有获得任何收益,做为一个前端萌新的我只是把这个项目当做是一个小练习demo，大神勿喷,但人总是要恰饭的(暗示我穷啦嘻嘻~)拒绝白嫖党，欢迎赞助~<br />赞助地址:<a href="https://lovek.me/donate/" target="_blank">https://lovek.me/donate/</a><br />付款备注请留下你的QQ号，感谢！</div>
+    <font color="green">快来加本萌的群鸭！QQ群：<a href="https://jq.qq.com/?_wv=1027&k=53sXSlP"  target=_blank>826967547</a><br/>当前版本：签到萌宠机器人官网正式版（v1.0.1）</font><hr/><font color="red">公告：<br>2020年4月21日—更新内容：<br><br><ul><li>本次为强制更新，看到此公告表示系统已自动完成更新，无需您手动操作！</li><br><li>跟随插件更新了官网首页的部分图片</li><br><li>更换了官网图片的加载方式，现在加载的更快！</li><br><li>优化了网站的打开速度</li></ul></font><hr />分享这套网站并没有获得任何收益,做为一个前端萌新的我只是把这个项目当做是一个小练习demo，大神勿喷,但人总是要恰饭的(暗示我穷啦嘻嘻~)拒绝白嫖党，欢迎赞助~<br />赞助地址:<a href="https://lovek.me/donate/" target="_blank">https://lovek.me/donate/</a><br />付款备注请留下你的QQ号，感谢！</div>
 <div class="widget-content border-bottom">
 </ul>
 </div>
