@@ -28,10 +28,10 @@
 ## 谁在使用？
 
 - http://gw.lpit.xyz/
-- http://sq.pipii.cn/
+- http://gw.pipii.cn/
 - http://azg.tfkeji.top/
 - http://bot.rizzo.ga/
-- http://robort.520hly.com/
+- http://gw.csp180.com/
 - http://jk.qfydhy.xyz/
 
 
