@@ -1,3 +1,4 @@
+ #### 🚩注意！此仓库已弃用，不再进行任何维护与更新，更多精彩尽在QQ群：826967547
 <h1 align="center">签到萌宠机器人官网</h1>
 
 > A robot that supports 50+ sign-in service, with one button sign-in and one button adoration, has rich functions
@@ -18,7 +19,7 @@
 
 ## 演示站
 
-- http://gw.lpit.xyz/
+ - http://gw.lpit.xyz/
 
 ## 搭建方法
 
