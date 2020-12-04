@@ -1,4 +1,4 @@
- #### 🚩注意！此仓库已弃用，不再进行任何维护与更新，更多精彩尽在QQ群：826967547
+ #### 🚩<font color=red>注意！此仓库已弃用，不再进行任何维护与更新，更多精彩尽在QQ群：826967547</font>
 <h1 align="center">签到萌宠机器人官网</h1>
 
 > A robot that supports 50+ sign-in service, with one button sign-in and one button adoration, has rich functions
