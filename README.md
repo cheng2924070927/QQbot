@@ -20,7 +20,7 @@
 
 ## 演示站
 
- - http://gw.lpit.xyz/
+ - http://jkjpro.cn/
 
 ## 搭建方法
 
@@ -29,7 +29,7 @@
 
 ## 谁在使用？
 
-- http://gw.lpit.xyz/
+- http://jkjpro.cn/
 - http://gw.pipii.cn/
 - http://azg.tfkeji.top/
 - http://bot.rizzo.ga/
